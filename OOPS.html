@@ -1,0 +1,139 @@
+<html>
+  <head>
+  <!-- OOPS Concepts
+1:-What is a class?
+A class can be understood as a template or a blueprint, which contains some values, known as member data or member,
+and some set of rules, known as behaviors or functions. So when an object is created, it automatically takes 
+the data and functions that are defined in the class.
+-----------------------------------------
+2:-What is an object?
+An object refers to the instance of the class, which contains the instance of the members and behaviors defined 
+in the class template. In the real world, an object is an actual entity to which a user interacts, whereas class is just the 
+blueprint for that object. So the objects consume space and have some characteristic behavior.
+For example, a specific car.
+-----------------------------------------
+Abstraction, Encapsulation, Inharitance, Polymorphism
+ 
+Abstraction:-showing only what is necessary
+-----------------------------------------
+Encapsulation:- hide complexity or Encapsulation is the process of binding data members and methods of a program together to do
+a specific job, without revealing unnecessary details.
+Encapsulation can also be defined in two different ways:
+1) Data hiding: Encapsulation is the process of hiding unwanted information, such as restricting access to any member of an object.
+2) Data binding: Encapsulation is the process of binding the data members and the methods together as a whole, as a class.
+
+OR
+abstraction can be achieved by using encapsulation through applying access modifier specially making method to private.
+-----------------------------------------
+Inheritance:-mechanism in which one object acquires all the properties and behaviors of a parent object.
+
+Types of inheritance:-
+Single inheritance
+Multiple inheritances
+Multi-level inheritance
+Hierarchical inheritance
+Hybrid inheritance
+-----------------------------------------
+Polymorphism:- is the ability of an object to take on many forms.
+OR
+Polymorphism is composed of two words - “poly” which means “many”, and “morph” which means “shapes”. Therefore Polymorphism 
+refers to something that has many shapes.
+
+Type of polymorphism
+Compile time(static or early binding):-Or overloading one function name with diffrent parameter
+Run time(Dynamic or late binding):-Overriding, function is being overriding using virtula key word
+---------------------------------------------------------------------------------------------------------
+Interfaces:- 
+Interface in C# is a blueprint of a class. It is like abstract class because all the methods which are
+declared inside the interface are abstract methods. It cannot have method body and cannot be 
+instantiated.
+It is used to achieve multiple inheritance which can't be achieved by class.
+-----------------------------------------
+What is a subclass(child class)?
+The subclass is a part of Inheritance. The subclass is an entity, which inherits from another class. It is also known as the child class.
+-----------------------------------------
+Define a superclass(parent class)?
+Superclass is also a part of Inheritance. The superclass is an entity, which allows subclasses or child classes to inherit from itself.
+-----------------------------------------
+What is an abstract class?
+An abstract class is a special class containing abstract methods. The significance of abstract class is that the abstract 
+methods inside it are not implemented and only declared. So as a result, when a subclass inherits the abstract class and needs
+to use its abstract methods, they need to define and implement them.
+-----------------------------------------
+How is an abstract class different from an interface?
+Interface and abstract class both are special types of classes that contain only the methods declaration and not their 
+implementation. But the interface is entirely different from an abstract class. The main difference between the two is that, 
+when an interface is implemented, the subclass must define all its methods and provide its implementation. Whereas when an 
+abstract class is inherited, the subclass does not need to provide the definition of its abstract method, until and unless
+ the subclass is using it.
+
+Also, an abstract class can contain abstract methods as well as non-abstract methods.
+-----------------------------------------
+Can you create an instance of an abstract class?
+No. Instances of an abstract class cannot be created because it does not have a complete implementation. However, instances of 
+subclass inheriting the abstract class can be created.
+
+-----------------------------------------
+What is meant by Garbage Collection in OOPs world?
+Object-oriented programming revolves around entities like objects. Each object consumes memory and there can be multiple objects
+of a class. So if these objects and their memories are not handled properly, then it might lead to certain memory-related 
+errors and the system might fail.
+
+Garbage collection refers to this mechanism of handling the memory in the program. Through garbage collection, the unwanted 
+memory is freed up by removing the objects that are no longer needed.
+-----------------------------------------
+How much memory does a class occupy?
+Classes do not consume any memory. They are just a blueprint based on which objects are created. Now when objects are created, 
+they actually initialize the class members and methods and therefore consume memory.
+
+-----------------------------------------
+Is it always necessary to create objects from class?
+No. An object is necessary to be created if the base class has non-static methods. But if the class has static methods, 
+then objects don’t need to be created. You can call the class method directly in this case, using the class name.
+-----------------------------------------
+What is a constructor?
+Constructors are special methods whose name is the same as the class name. The constructors serve the special purpose of 
+initializing the objects.
+For example, suppose there is a class with the name “MyClass”, then when you instantiate this class, you pass the syntax:
+MyClass myClassObject = new MyClass();
+
+Now here, the method called after “new” keyword - MyClass(), is the constructor of this class. This will help to instantiate 
+the member data and methods and assign them to the object myClassObject.
+
+What are the various types of constructors in C++?
+Default constructor: The default constructor is the constructor which doesn’t take any argument. It has no parameters.
+Parameterized constructor: The constructors that take some arguments are known as parameterized constructors.
+
+-----------------------------------------
+What is a destructor?
+Contrary to constructors, which initialize objects and specify space for them, Destructors are also special methods. 
+But destructors free up the resources and memory occupied by an object. Destructors are automatically called when an object is being destroyed. 
+
+Are class and structure the same? If not, what's the difference between a class and a structure?
+No, class and structure are not the same. Though they appear to be similar, they have differences that make them apart. 
+For example, the structure is saved in the stack memory, whereas the class is saved in the heap memory. Also, Data Abstraction 
+cannot be achieved with the help of structure, but with class, Abstraction is majorly used.
+
+-----------------------------------------
+What are virtual functions?
+Virtual functions are functions that are present in the parent class and are overridden by the subclass. These functions are 
+used to achieve runtime polymorphism.
+
+-----------------------------------------
+What is a final variable?
+A variable whose value does not change. It always refers to the same object by the property of non-transversity.
+
+-----------------------------------------
+What is a finally block?
+A finally block consists of code that is used to execute important code such as closing a connection, etc. This block executes 
+when the try block exits. It also makes sure that finally block executes even in case some unexpected exception is encountered.
+
+
+
+
+
+-->
+
+  </head>
+  <body>sdf</body>
+</html>
